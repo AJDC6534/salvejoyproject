@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Home</title>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url(background.jpg); 
+        background-size: cover; 
+        background-position: center;
+        background-attachment: fixed;
+    }
+    nav{
+        background-color: #333;
+        padding: 10px;
+    }
+    nav ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
+    }
+    nav li{
+        display: inline;
+    }
+    nav a{
+        color: white;
+        text-decoration: none;
+        padding: 8px 16px;
+        display: block;
+    }
+    nav a:hover{
+        background-color: #575757;
+    }
+    a {
+	    font-weight: bold;
+	    text-decoration: none;
+	    color: #FFCF33;
+    }
+    a:hover {
+	    color: #FFE799;
+    }
+    .masthead,
+    .introduction,
+    .location,
+    .questions,
+    .content-footer {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .masthead-intro,
+    .masthead-heading,
+    .content-footer > p,
+    .social {
+        text-align: center;
+    }
+    .introduction,
+    .location,
+    .questions {
+        max-width: 38em;
+	    margin-left: auto;
+	    margin-right: auto;
+    }
+    .introduction > p,
+    .location > p,
+    .content-footer > p {
+	    font-weight: 300;
+	    letter-spacing: 0.05em;
+    }
+    .masthead {
+	    padding: 6em 0;
+	    background-image: url('https://i.imgur.com/lvXbgcg.jpg');
+	    background-repeat: no-repeat;
+	    background-size: cover;
+    }
+    .masthead-intro {
+	    margin-bottom: 0.1em;
+	    color: #FFFFFF;
+	    font-family: "Gentium Book Basic", Georgia, serif;
+	    font-size: 2em;
+    }
+    .masthead-heading {
+	    margin-top: -0.2em;
+	    color: #FFF1C2;
+	    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+	    font-style: normal;
+	    font-weight: bold;
+	    font-size: 6em;
+	    letter-spacing: -0.02em;
+	    text-transform: uppercase;
+	    text-shadow: 0px 3px 0px #FFCF33;
+    }
+    .heading {
+	    max-width: 19em;
+	    margin-top: 2em;
+    }
+    .question {
+	    margin: 2em 0 1em 0;
+	    color: #FFCF33;
+	    font-family: "Gentium Book Basic", Georgia, serif;
+	    font-size: 1.2em;
+	    font-weight: bold;
+    }
+    .answer {
+	    margin-left: 0em;
+    }
+    footer {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        text-align: center;
+        padding: 10px;
+        bottom: 0;
+        width: 100%;
+    }
+    footer a {
+        color: #3498db;
+        text-decoration: none;
+    }
+    footer a:hover {
+        text-decoration: underline;
+    }
+</style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="Homepage.html">Home</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="About.html">About</a></li>
+        </ul>
+    </nav>
+    <header class="masthead">
+        <p class="masthead-intro">Hi, I&rsquo;m</p> 
+        <h1 class="masthead-heading">Salve Joy!</h1>
+    </header>
+    <section class="introduction">
+        <h1 class="heading">Introduction</h1>
+        <p>I&rsquo;m a Office Administrator Student who loves <strong>good design</strong>, <strong>good coffee</strong>, and <strong>good people</strong>. I am currently a student (Name of school) <a href="http://ideabasekent.com">(name of school)</a>.</p>
+        <p>I love the web and all the awesome things that come out of it. I&rsquo;m excited to live and work in a time of huge advances in web technology. It&rsquo;s easier than ever to share and collaborate with others, all because of the Internet.</p>
+        <p>Education is also super important to me - I come from a family of educators - and I&rsquo;m stoked to work with Thinkful&rsquo;s awesome student community.</p>
+    </section>
+    <section class="location">
+        <h1 class="heading">Where I&rsquo;m From</h1>
+        <p>I&rsquo;m from the (Name of place where u grow up), even more specifically. I love the spacious fields, the smell of the outdoors, and the people in (name of place). I bring a bit of the (name of place) work ethic to all my projects - a craftsman&rsquo;s approach to <strong>Doing Things Right the First Time</strong>.</p>
+        <p>I&rsquo;m finishing my (name of degree) at (name of school), and will be graduating (graduation date) with a focus in <strong>(name of course)</strong>.</p>
+    </section>
+    <section class="questions">
+        <h1 class="heading">More About Me</h1>
+        <dl class="question-list">
+            <dt class="question">What are your favorite hobbies?</dt>
+            <dd class="answer">(hobby). I also <strong>LOVE</strong> food. I&rsquo;m always trying new cuisine. Foodies unite!</dd>
+            <dt class="question">What&rsquo;s your dream job?</dt>
+            <dd class="answer">(future job u want)</dd>
+            <dt class="question">What&rsquo;s your background?</dt>
+            <dd class="answer">(what u do in your free time).</dd>
+            <dt class="question">What music have you been listening to lately?</dt>
+            <dd class="answer">fav music <a href="https://soundcloud.com/rynweaver/promises">(artist name)</a> lately, ever since her first EP came out in late July.</dd>
+        </dl>
+    </section>
+    <footer>
+        <p>&copy; 2024 Salve Joy Tidong. All rights reserved.</p>
+        <p>Visit my <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> profile</p>
+    </footer>
+</body>
+</html>
